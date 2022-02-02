@@ -1,29 +1,37 @@
-# Savvy Coders Project Boilerplate Starter Kit
+# Capstone project: SweetSpot - Weather Analysis App
 
 ## Overview
 
-This template repository contains several opinionated, 'starter' files and settings to help Savvy Coder students focus more time and energy on learning how to code and/or craft 'business logic' for projects and less time on configurations.
+This application wil allow users to explore various locations in the USA for desired/undesired weather factors based on user’s input of specific weather factors
 
-In addition to a '.gitignore' and some VS Code specific extensions and settings, it includes the 'recommended' settings for:
+Target Audience:
+Anyone interested in exploring weather patterns in the location where they live or the location they consider moving to.
 
-1. [ESLint](eslint.org)
-2. [Stylelint](stylelint.io)
-3. [Prettier](prettier.io)
+Elevator pitch:
+This app will allow users to explore weather patterns in their current or future location. Such weather information can be used to track migraine symptoms for example or make decisions about where to move/live. It answers the question: 
 
-## Get Started
+The app will consist of the following webpages:
 
-**First and foremost,** make sure that your local machine is set up with all of the 'dev environment tooling' as per the instructions in the curriculum.
+Main: enter location to search, select factors to track, duration of time, and display results
+About: explain the methodology and measurements of weather factors
+Results: shows results of the query
 
-Well, after establishing your directory structure on your local machine, (e.g. '~/Code/SavvyCoders'), clone the Savvy Starter Repo - essentially, there should be a button that says **Use this template.**
+User flow:
+User enters their location, selects weather criteria, enters number of days to go back, and sees the  results for the selected criteria. The results are displayed in two tables: one shows raw data, and the second table shows fluctuations (exact statistical configuration of fluctuations remains to be determined based on what data will be available for analysis, which depends on specific API’s used)
 
-> [Read more about using templates on GitHub here...](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template)
+Wireframes:
+See PDF
 
-Once this repo has been created on your GitHub, you can click on the button to 'clone' it as usual.
+Color Palette:
+“Natural” and moderate colors that can be seen on a farm in the northern hemisphere: white, black, green, brown, red, yellow. So, no lush tropical colors or synthetic-looking hues.
 
-Once it's `clone`d to your local machine, `cd` into the directory and **be sure to do:** `npm i` to get all of the dependencies installed. If you see any _errors_ (warnings are OK) on Windows, you may have to do `npm install`.
+List Applications Researched: (links to websites / applications) accuweather.com, weather.com
+List what you like about each site: big coverage and lots of details
+List what you do not like about each site: it does not give information about barometric pressure, precipitation and other changes over time such as day to day or intra-day. You cannot gather select only certain criteria but must look for them and write them down on paper manually to create your own table
 
-Now, enter `code .` to open this project in VS Code, and look for a prompt to 'install some extensions' once inside VS Code (in the bottom `right` of your screen). You should install these.
+SWOT analysis:
 
-In your repo, feel free to update this README and make any other initial changes to files, etc. Then go ahead and do your usual `git` steps -- add, commit, and push.
-
-**Note:** This is a template repository, no need to 'fork it.
+Strengths: Meets a certain demand for those who want to know about specific weather factors; fills a gap
+Weaknesses: Relies on existing API’s where data can be aggregated using unreliable or inconsistent methods
+Opportunities: This app can be made more comprehensive and versatile to meet the needs of migraine suffers for instance
+Threats: Accuracy and reliability depends on external API’s with little control over data collection methods. As a result, any flaws in data collection methods will affect the accuracy of the app.
