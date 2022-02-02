@@ -8,7 +8,7 @@ Target Audience:
 Anyone interested in exploring weather patterns in the location where they live or the location they consider moving to.
 
 Elevator pitch:
-This app will allow users to explore weather patterns in their current or future location. Such weather information can be used to track migraine symptoms for example or make decisions about where to move/live. It answers the question: 
+This app will allow users to explore weather patterns in their current or future location. Such weather information can be used to track migraine symptoms for example or make decisions about where to move/live. 
 
 The app will consist of the following webpages:
 
