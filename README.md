@@ -12,11 +12,11 @@ This app will allow users to explore weather patterns in their current or future
 
 The app will consist of the following webpages:
 
-Main: enter location to search, select factors to track, duration of time, and display results
+*Tabspace* Main: enter location to search, select factors to track, duration of time, and display results
 
-About: explain the methodology and measurements of weather factors
+*Tabspace* About: explain the methodology and measurements of weather factors
 
-Results: shows results of the query
+*Tabspace* Results: shows results of the query
 
 User flow:
 User enters their location, selects weather criteria, enters number of days to go back, and sees the  results for the selected criteria. The results are displayed in two tables: one shows raw data, and the second table shows fluctuations (exact statistical configuration of fluctuations remains to be determined based on what data will be available for analysis, which depends on specific API’s used)
