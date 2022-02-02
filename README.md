@@ -13,7 +13,9 @@ This app will allow users to explore weather patterns in their current or future
 The app will consist of the following webpages:
 
 Main: enter location to search, select factors to track, duration of time, and display results
+
 About: explain the methodology and measurements of weather factors
+
 Results: shows results of the query
 
 User flow:
