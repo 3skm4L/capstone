@@ -33,6 +33,8 @@ List what you like about each site: big coverage and lots of details
 
 List what you do not like about each site: it does not give information about barometric pressure, precipitation and other changes over time such as day to day or intra-day. You cannot gather select only certain criteria but must look for them and write them down on paper manually to create your own table
 
+Any third party APIs that will be used: US Weather, Visual Crossing
+
 SWOT analysis:
 
 -- Strengths: Meets a certain demand for those who want to know about specific weather factors; fills a gap
